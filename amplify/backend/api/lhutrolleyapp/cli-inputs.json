@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "lhutrolleyapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Lis\\AndroidStudioProjects\\LHU-Trolley-App\\amplify\\backend\\api\\lhutrolleyapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

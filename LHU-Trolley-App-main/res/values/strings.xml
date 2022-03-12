@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LHU Trolley App</string>
+    <string name="schedule_label">Schedule</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="map_label">Map</string>
+    <string name="exit_label">Exit</string>
+    <string name="filter_label">Filter</string>
+    <string name="filter_shortcut">f</string>
+    <string name="main_menu_label">Main Menu</string>
+    <string name="no_notifications_message">You currently have no notifications set. Go to the trolley schedule and select a time to set a notification.</string>
+</resources>
