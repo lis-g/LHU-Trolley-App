@@ -2,7 +2,10 @@ package com.comp475.lhutrolleyapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.comp475.lhutrolleyapp.R;
 
@@ -11,11 +14,17 @@ public class NotificationsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         /*
-         * TODO: There needs to be a check here to see if any notifications are set.
-         *          If there are, setContentView(R.layout.activity_notifications).
-         *          Else, setContentView(R.layout.activity_no_notifications).
+         * check if any notifications are set then set the appropriate content view
          */
-        setContentView(R.layout.activity_no_notifications);
+        MainActivity Status = new MainActivity();
+        boolean check = Status.getNotifStatus();
+
+        if( true == check )
+            setContentView(R.layout.activity_notifications);
+        else
+            setContentView(R.layout.activity_no_notifications);
+
     }
 }
