@@ -26,51 +26,47 @@
         android:layout_width="180dp"
         android:layout_height="50dp"
         android:text="@string/schedule_label"
-        android:textColor="@color/crimson"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/notificationButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471" />
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
+        app:layout_constraintVertical_bias="0.481" />
 
     <Button
         android:id="@+id/notificationButton"
         android:layout_width="180dp"
         android:layout_height="50dp"
         android:text="@string/notifications_label"
-        android:textColor="@color/crimson"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mapButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
+        app:layout_constraintTop_toBottomOf="@+id/scheduleButton"
+        app:layout_constraintVertical_bias="0.606" />
 
     <Button
         android:id="@+id/mapButton"
         android:layout_width="180dp"
         android:layout_height="50dp"
         android:text="@string/map_label"
-        android:textColor="@color/crimson"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/exitButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintTop_toBottomOf="@+id/notificationButton"
+        app:layout_constraintVertical_bias="0.725" />
 
     <Button
         android:id="@+id/exitButton"
         android:layout_width="180dp"
         android:layout_height="50dp"
         android:text="@string/exit_label"
-        android:textColor="@color/crimson"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapButton"
         app:layout_constraintVertical_bias="0.835" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
