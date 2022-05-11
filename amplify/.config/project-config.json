@@ -1,0 +1,13 @@
+{
+  "projectName": "LHUTrolleyApp",
+  "version": "3.1",
+  "frontend": "android",
+  "android": {
+    "config": {
+      "ResDir": "LHU-Trolley-App/LHU-Trolley-App-main/res"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
