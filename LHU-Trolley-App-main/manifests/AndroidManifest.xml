@@ -9,38 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LHUTrolleyApp">
-
+        <activity
+            android:name=".activity.EditNotificationActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
-            android:label="@string/main_menu_label">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity.ScheduleActivity"
             android:exported="false"
             android:label="@string/schedule_label" />
-
         <activity
             android:name=".activity.SetNotificationActivity"
             android:exported="false"
             android:label="@string/set_notification_label" />
-
         <activity
             android:name=".activity.FilterScheduleActivity"
-            android:label="@string/filter_schedule_label"
-            android:exported="false" />
-
+            android:exported="false"
+            android:label="@string/filter_schedule_label" />
         <activity
             android:name=".activity.NotificationsActivity"
             android:exported="false"
             android:label="@string/notifications_label" />
-
     </application>
 
 </manifest>
