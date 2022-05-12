@@ -64,4 +64,4 @@ public class FilterScheduleSettingsFragment extends PreferenceFragmentCompat {
             listPref.setSummary(listPref.getEntries()[0]);
         }
     }
-}
+} 
