@@ -26,5 +26,17 @@ public class NotificationsActivity extends AppCompatActivity {
         else
             setContentView(R.layout.activity_no_notifications);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem menuItem) {
+        switch(menuItem.getItemId()) {
+            case(android.R.id.home):
+                this.finish();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(menuItem);
     }
 }
